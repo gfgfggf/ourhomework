@@ -20,9 +20,12 @@ public class ParkingBoy {
 		return totalCars-i;
 	}
 	ArrayList<ParkingPlace> places=new ArrayList<ParkingPlace>();
+<<<<<<< HEAD
 	public ArrayList<ParkingPlace> getPlaces() {
 		return places;
 	}
+=======
+>>>>>>> ddca9f09141d60695fe0657c57d3f9d8eec7470f
 	Map<ParkingPlace,ArrayList<Car>> boy=null;
 	public ParkingBoy()
 	{
@@ -66,6 +69,10 @@ public class ParkingBoy {
 			throw new ParkFullException("全部都满了.....");
 				
 		}
+<<<<<<< HEAD
+=======
+	
+>>>>>>> ddca9f09141d60695fe0657c57d3f9d8eec7470f
 	public Car get(Ticket ticket){
 	
 		if(cars.size()==0){

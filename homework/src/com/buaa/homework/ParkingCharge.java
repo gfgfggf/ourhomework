@@ -1,5 +1,6 @@
 package com.buaa.homework;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Map;
@@ -25,5 +26,11 @@ public class ParkingCharge {
 		System.out.println("经理编号："+manger);
 		System.out.println("         车位数："+manger.getTotalCars());
 		System.out.println("         空位数："+manger.getTotalFree());
+=======
+public class ParkingCharge {
+	public void show(){
+		
+		
+>>>>>>> ddca9f09141d60695fe0657c57d3f9d8eec7470f
 	}
 }

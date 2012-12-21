@@ -67,8 +67,11 @@ public class ParkingPlaceTest {
 		car=place.get(ticket);
 		car=place.get(ticket);
 	}
+<<<<<<< HEAD
 	@Test(expected=NoExistsException.class)
 	public void should_get_car_when_nothing(){
 		Car car=place.get(new Ticket());
 	}
+=======
+>>>>>>> ddca9f09141d60695fe0657c57d3f9d8eec7470f
 }
